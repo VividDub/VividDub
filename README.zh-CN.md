@@ -1,0 +1,81 @@
+# VideoDubbing
+
+面向创作者、内容团队、studio 和企业本地化团队的一站式 AI 视频翻译、AI 配音、字幕生成与硬字幕擦除方案。
+
+[中文官网](https://videodubbing.io/zh/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [商务咨询](https://videodubbing.io/zh/contact/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [Blog](https://videodubbing.io/zh/blog/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [English](README.md)
+
+## VideoDubbing 是什么？
+
+VideoDubbing 帮助团队把一条源视频更快转成多语种版本，覆盖 AI 语音识别、文本翻译、声音克隆、AI 配音、字幕生成、字幕压制和硬字幕擦除等关键流程。
+
+它适合需要持续做视频本地化的团队，而不是只处理一次性的手工剪辑任务。目标是减少工具切换和人工衔接，让团队从源视频更稳定地交付到可发布的本地化视频。
+
+## 核心能力
+
+- **AI 视频翻译**：将视频中的口语内容翻译成目标语言。
+- **AI 配音与声音克隆**：生成目标语言配音，并尽量保留原说话人的语气、节奏和情感。
+- **字幕生成**：自动生成与视频时间轴对齐的翻译字幕。
+- **字幕压制**：输出带样式字幕的视频，方便直接发布。
+- **硬字幕擦除**：当源视频已有烧录字幕时，先擦除再重新本地化。
+- **链接或文件提交**：支持 YouTube、TikTok、Google Drive、百度网盘链接，也支持本地文件上传。
+- **批量友好工作流**：适合内容库、短视频矩阵、课程和营销素材的持续本地化。
+
+## 适合谁使用
+
+VideoDubbing 特别适合：
+
+- 想把已有视频内容库推向海外市场的内容团队
+- 需要批量处理短视频本地化的 studio 或 media 团队
+- 需要发布多语种课程、教程或培训材料的教育团队
+- 需要把产品演示、广告和讲解视频适配到不同市场的跨境营销团队
+- 需要建立可复用视频本地化流程的企业团队
+
+## 典型流程
+
+1. 通过链接或本地文件提交视频。
+2. 自动识别原视频语音并生成转写。
+3. 自动识别说话人，降低多人视频的整理成本。
+4. 将原语音内容翻译成目标语言。
+5. 生成自然的目标语言配音。
+6. 生成与时间轴对齐的翻译字幕。
+7. 在需要时擦除原视频已有硬字幕。
+8. 导出可用于审核或发布的本地化视频。
+
+## 使用场景
+
+### 内容出海
+
+把已有视频素材转为多语种资产，无需重拍，帮助内容进入更多语言市场。
+
+### 短视频本地化
+
+规模化本地化 TikTok、Reels、Shorts 等短视频内容，覆盖全球主流平台。
+
+### 教育与培训
+
+将课程、教程或企业培训视频发布为多语种版本，提高内容触达范围。
+
+### 跨境营销
+
+将产品演示、广告、创始人视频和讲解内容本地化为不同市场可用的版本。
+
+## 为什么选择 VideoDubbing
+
+传统视频本地化通常需要多个工具配合：转写、翻译、配音、字幕制作、字幕处理和最终导出都分散在不同环节。VideoDubbing 将这些步骤连接成一条更完整的工作流，帮助团队更快、更稳定地从源视频交付到本地化成片。
+
+简单来说：提交一次视频，获得带目标语言配音和字幕的可发布版本。
+
+## 官方链接
+
+- 中文官网：https://videodubbing.io/zh/
+- 官网：https://videodubbing.io/
+- 中文发布文章：https://videodubbing.io/zh/blog/launch-videodubbing/
+- Product roadmap：https://github.com/VideoDubbing-io/product-roadmap
+- English README：README.md
+- 联系邮箱：support@videodubbing.io
+
+## 联系我们
+
+如需商务咨询、产品 demo 或本地化流程建议，请联系：
+
+support@videodubbing.io

@@ -2,7 +2,7 @@
 
 AI video translation, dubbing, subtitles, and hard-sub removal for creators, studios, and global content teams.
 
-[Website](https://videodubbing.io/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [中文官网](https://videodubbing.io/zh/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [Contact Sales](https://videodubbing.io/contact/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [Blog](https://videodubbing.io/blog/?utm_source=github&utm_medium=readme&utm_campaign=profile)
+[Website](https://videodubbing.io/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [Contact Sales](https://videodubbing.io/contact/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [Blog](https://videodubbing.io/blog/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [Simplified Chinese](README.zh-CN.md)
 
 ## What is VideoDubbing?
 
@@ -68,19 +68,10 @@ The goal is simple: submit a video once, then get a publishable localized versio
 ## Official Links
 
 - Website: https://videodubbing.io/
-- Chinese website: https://videodubbing.io/zh/
 - Launch blog: https://videodubbing.io/blog/launch-videodubbing/
-- 中文发布文章: https://videodubbing.io/zh/blog/launch-videodubbing/
 - Product roadmap: https://github.com/VideoDubbing-io/product-roadmap
+- Simplified Chinese README: README.zh-CN.md
 - Contact: support@videodubbing.io
-
-## Chinese Summary
-
-VideoDubbing 是一站式 AI 视频翻译、AI 配音、字幕生成与硬字幕擦除方案，面向出海创作者、内容团队、studio、教育培训团队和企业本地化团队。
-
-它可以把一条源视频更快转成多语种版本，覆盖语音识别、文本翻译、声音克隆、AI 配音、字幕生成、字幕压制和硬字幕擦除等关键流程。
-
-中文官网: https://videodubbing.io/zh/
 
 ## Contact
 

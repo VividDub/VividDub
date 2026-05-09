@@ -73,7 +73,7 @@ while IFS= read -r wf_file; do
       VIOLATIONS=$((VIOLATIONS + 1))
     fi
   done
-done < <(find ".github/workflows" \( -name "*.yml" -o -name "*.sh" -o -name "*.bash" \) -type f | sort)
+done < <(find ".github/workflows" \( -name "*.yml" -o -name "*.yaml" -o -name "*.sh" -o -name "*.bash" \) -type f | sort)
 
 echo ""
 echo "Scanned ${CHECKED} synced file(s) (yml + sh + bash). Deny-listed secrets: ${DENY_LIST[*]}."

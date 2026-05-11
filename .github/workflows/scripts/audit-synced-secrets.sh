@@ -21,18 +21,31 @@ if [[ ! -f "${COMMON_JSON}" ]]; then
   exit 0
 fi
 
+if ! SYNC_EXCLUDE_OUTPUT="$(
+  python3 - "${COMMON_JSON}" <<'PY'
+import json
+import sys
+
+try:
+    with open(sys.argv[1]) as f:
+        d = json.load(f)
+except Exception as exc:
+    print(f"ERROR: {exc}", file=sys.stderr)
+    sys.exit(1)
+
+for p in d.get("sync_exclude_paths", []):
+    print(p)
+PY
+)"; then
+  echo "ERROR: failed to parse ${COMMON_JSON}." >&2
+  exit 1
+fi
+
 SYNC_EXCLUDE_PATTERNS=()
 while IFS= read -r pattern; do
+  [[ -n "${pattern}" ]] || continue
   SYNC_EXCLUDE_PATTERNS+=("${pattern}")
-done < <(
-  python3 -c "
-import json
-with open('${COMMON_JSON}') as f:
-    d = json.load(f)
-for p in d.get('sync_exclude_paths', []):
-    print(p)
-"
-)
+done <<< "${SYNC_EXCLUDE_OUTPUT}"
 
 is_excluded() {
   local file="$1"

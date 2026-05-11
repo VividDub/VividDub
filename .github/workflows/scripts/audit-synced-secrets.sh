@@ -21,7 +21,10 @@ if [[ ! -f "${COMMON_JSON}" ]]; then
   exit 0
 fi
 
-mapfile -t SYNC_EXCLUDE_PATTERNS < <(
+SYNC_EXCLUDE_PATTERNS=()
+while IFS= read -r pattern; do
+  SYNC_EXCLUDE_PATTERNS+=("${pattern}")
+done < <(
   python3 -c "
 import json
 with open('${COMMON_JSON}') as f:
@@ -33,6 +36,10 @@ for p in d.get('sync_exclude_paths', []):
 
 is_excluded() {
   local file="$1"
+  if [[ "${#SYNC_EXCLUDE_PATTERNS[@]}" -eq 0 ]]; then
+    return 1
+  fi
+
   for pattern in "${SYNC_EXCLUDE_PATTERNS[@]}"; do
     if [[ "${file}" == "${pattern}" || "${file}" == "${pattern}/"* ]]; then
       return 0
@@ -43,7 +50,7 @@ is_excluded() {
 
 matches_secret() {
   local file="$1" secret="$2"
-  local dotted_re="secrets\\.${secret}"
+  local dotted_re="secrets\\.${secret}\\b"
   local sq_re="secrets\\['${secret}'\\]"
   local dq_re="secrets\\[\"${secret}\"\\]"
 
@@ -76,7 +83,7 @@ while IFS= read -r wf_file; do
 done < <(find ".github/workflows" \( -name "*.yml" -o -name "*.yaml" -o -name "*.sh" -o -name "*.bash" \) -type f | sort)
 
 echo ""
-echo "Scanned ${CHECKED} synced file(s) (yml + sh + bash). Deny-listed secrets: ${DENY_LIST[*]}."
+echo "Scanned ${CHECKED} synced file(s) (yml + yaml + sh + bash). Deny-listed secrets: ${DENY_LIST[*]}."
 
 if [[ "${VIOLATIONS}" -gt 0 ]]; then
   echo ""

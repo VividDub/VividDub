@@ -18,6 +18,8 @@ sync:
   - changed-files:
       - any-glob-to-any-file:
           - ".github/workflows/sync-*.yml"
+          - ".github/workflows/sync-*.yaml"
+          - ".github/workflows/scripts/**"
 
 release:
   - changed-files:

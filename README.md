@@ -1,12 +1,12 @@
-# VideoDubbing
+# VividDub
 
 AI video translation, dubbing, subtitles, and hard-sub removal for creators, studios, and global content teams.
 
-[Website](https://videodubbing.io/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [中文官网](https://videodubbing.io/zh/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [Contact Sales](https://videodubbing.io/contact/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [Blog](https://videodubbing.io/blog/?utm_source=github&utm_medium=readme&utm_campaign=profile)
+[Website](https://vividdub.com/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [中文官网](https://vividdub.com/zh/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [Contact Sales](https://vividdub.com/contact/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [Blog](https://vividdub.com/blog/?utm_source=github&utm_medium=readme&utm_campaign=profile)
 
-## What is VideoDubbing?
+## What is VividDub?
 
-VideoDubbing helps teams turn one source video into multilingual versions with AI-powered transcription, translation, voice cloning, dubbing, subtitle generation, subtitle burn-in, and hard-subtitle removal.
+VividDub helps teams turn one source video into multilingual versions with AI-powered transcription, translation, voice cloning, dubbing, subtitle generation, subtitle burn-in, and hard-subtitle removal.
 
 It is built for teams that need a practical end-to-end workflow for video localization instead of stitching together separate tools for transcription, translation, dubbing, subtitles, and delivery.
 
@@ -22,7 +22,7 @@ It is built for teams that need a practical end-to-end workflow for video locali
 
 ## Who It Is For
 
-VideoDubbing is especially useful for:
+VividDub is especially useful for:
 
 - Content teams expanding an existing video library into new language markets
 - Studios and short-form media teams localizing videos at scale
@@ -59,31 +59,30 @@ Publish the same course, tutorial, or internal training material in multiple lan
 
 Adapt product demos, ads, founder videos, and explainers for different markets with localized voice and on-screen text.
 
-## Why Teams Use VideoDubbing
+## Why Teams Use VividDub
 
-Traditional video localization often requires separate tools for transcription, translation, dubbing, subtitle creation, subtitle cleanup, and final export. VideoDubbing connects these steps into one workflow so teams can move from source video to localized output faster and with less manual coordination.
+Traditional video localization often requires separate tools for transcription, translation, dubbing, subtitle creation, subtitle cleanup, and final export. VividDub connects these steps into one workflow so teams can move from source video to localized output faster and with less manual coordination.
 
 The goal is simple: submit a video once, then get a publishable localized version with translated speech and subtitles.
 
 ## Official Links
 
-- Website: https://videodubbing.io/
-- Chinese website: https://videodubbing.io/zh/
-- Launch blog: https://videodubbing.io/blog/launch-videodubbing/
-- 中文发布文章: https://videodubbing.io/zh/blog/launch-videodubbing/
-- Product roadmap: https://github.com/VideoDubbing-io/product-roadmap
-- Contact: support@videodubbing.io
+- Website: https://vividdub.com/
+- Chinese website: https://vividdub.com/zh/
+- Launch blog: https://vividdub.com/blog/launch-vividdub/
+- 中文发布文章: https://vividdub.com/zh/blog/launch-vividdub/
+- Contact: support@vividdub.com
 
 ## Chinese Summary
 
-VideoDubbing 是一站式 AI 视频翻译、AI 配音、字幕生成与硬字幕擦除方案，面向出海创作者、内容团队、studio、教育培训团队和企业本地化团队。
+VividDub 是一站式 AI 视频翻译、AI 配音、字幕生成与硬字幕擦除方案，面向出海创作者、内容团队、studio、教育培训团队和企业本地化团队。
 
 它可以把一条源视频更快转成多语种版本，覆盖语音识别、文本翻译、声音克隆、AI 配音、字幕生成、字幕压制和硬字幕擦除等关键流程。
 
-中文官网: https://videodubbing.io/zh/
+中文官网: https://vividdub.com/zh/
 
 ## Contact
 
 For business inquiries, demos, or workflow questions, contact:
 
-support@videodubbing.io
+support@vividdub.com

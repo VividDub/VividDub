@@ -1,12 +1,12 @@
-# VideoDubbing
+# VividDub
 
 面向创作者、内容团队、studio 和企业本地化团队的一站式 AI 视频翻译、AI 配音、字幕生成与硬字幕擦除方案。
 
-[中文官网](https://videodubbing.io/zh/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [商务咨询](https://videodubbing.io/zh/contact/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [Blog](https://videodubbing.io/zh/blog/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [English](README.md)
+[中文官网](https://vividdub.com/zh/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [商务咨询](https://vividdub.com/contact/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [Blog](https://vividdub.com/zh/blog/?utm_source=github&utm_medium=readme&utm_campaign=profile) · [English](README.md)
 
-## VideoDubbing 是什么？
+## VividDub 是什么？
 
-VideoDubbing 帮助团队把一条源视频更快转成多语种版本，覆盖 AI 语音识别、文本翻译、声音克隆、AI 配音、字幕生成、字幕压制和硬字幕擦除等关键流程。
+VividDub 帮助团队把一条源视频更快转成多语种版本，覆盖 AI 语音识别、文本翻译、声音克隆、AI 配音、字幕生成、字幕压制和硬字幕擦除等关键流程。
 
 它适合需要持续做视频本地化的团队，而不是只处理一次性的手工剪辑任务。目标是减少工具切换和人工衔接，让团队从源视频更稳定地交付到可发布的本地化视频。
 
@@ -22,7 +22,7 @@ VideoDubbing 帮助团队把一条源视频更快转成多语种版本，覆盖 
 
 ## 适合谁使用
 
-VideoDubbing 特别适合：
+VividDub 特别适合：
 
 - 想把已有视频内容库推向海外市场的内容团队
 - 需要批量处理短视频本地化的 studio 或 media 团队
@@ -59,23 +59,22 @@ VideoDubbing 特别适合：
 
 将产品演示、广告、创始人视频和讲解内容本地化为不同市场可用的版本。
 
-## 为什么选择 VideoDubbing
+## 为什么选择 VividDub
 
-传统视频本地化通常需要多个工具配合：转写、翻译、配音、字幕制作、字幕处理和最终导出都分散在不同环节。VideoDubbing 将这些步骤连接成一条更完整的工作流，帮助团队更快、更稳定地从源视频交付到本地化成片。
+传统视频本地化通常需要多个工具配合：转写、翻译、配音、字幕制作、字幕处理和最终导出都分散在不同环节。VividDub 将这些步骤连接成一条更完整的工作流，帮助团队更快、更稳定地从源视频交付到本地化成片。
 
 简单来说：提交一次视频，获得带目标语言配音和字幕的可发布版本。
 
 ## 官方链接
 
-- 中文官网：https://videodubbing.io/zh/
-- 官网：https://videodubbing.io/
-- 中文发布文章：https://videodubbing.io/zh/blog/launch-videodubbing/
-- Product roadmap：https://github.com/VideoDubbing-io/product-roadmap
+- 中文官网：https://vividdub.com/zh/
+- 官网：https://vividdub.com/
+- 中文发布文章：https://vividdub.com/zh/blog/launch-vividdub/
 - English README：README.md
-- 联系邮箱：support@videodubbing.io
+- 联系邮箱：support@vividdub.com
 
 ## 联系我们
 
 如需商务咨询、产品 demo 或本地化流程建议，请联系：
 
-support@videodubbing.io
+support@vividdub.com

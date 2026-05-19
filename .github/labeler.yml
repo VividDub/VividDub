@@ -1,0 +1,78 @@
+github-actions:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/workflows/**"
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/workflows/check-issue-template.yml"
+          - ".github/workflows/check-pr-template.yml"
+          - ".github/workflows/commitlint.yml"
+          - ".github/workflows/labeler.yml"
+          - ".github/workflows/lint.yml"
+          - ".github/workflows/pr-branch-policy.yml"
+          - ".github/workflows/security.yml"
+
+sync:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/workflows/sync-*.yml"
+          - ".github/workflows/sync-*.yaml"
+          - ".github/workflows/scripts/**"
+
+release:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/workflows/auto-release.yml"
+          - ".github/workflows/release.yml"
+
+security:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/workflows/security.yml"
+
+notification:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/workflows/notify-*.yml"
+
+ai:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/workflows/ai-review.yml"
+
+issue:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/ISSUE_TEMPLATE/**"
+          - ".github/workflows/check-issue-template.yml"
+          - ".github/workflows/issue-ops.yml"
+
+pull-request:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/pull_request_template.md"
+          - ".github/workflows/ai-review.yml"
+          - ".github/workflows/check-pr-template.yml"
+          - ".github/workflows/labeler.yml"
+          - ".github/workflows/pr-branch-policy.yml"
+
+scripts:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "scripts/**"
+
+docs:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "README.md"
+          - "docs/**"
+          - "**/*.md"
+
+config:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "CODEOWNERS"
+          - "org-claude.md"
+          - ".github/labeler.yml"
